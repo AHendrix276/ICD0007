@@ -1,0 +1,30 @@
+div {
+    margin: auto;
+}
+
+row {
+    margin: auto;
+}
+
+img {
+    width: 300px;
+    padding:20px;
+}
+
+form{
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h2{
+    text-align:center;
+    color: 
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    padding-right: 60px;
+    margin: auto;
+}

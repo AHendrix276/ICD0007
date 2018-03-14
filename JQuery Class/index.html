@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Currency Converter.io</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <center><h1>Currency Converter.io</h1></center>
+            <div class="col-md-6 col-lg-4">
+                <img class="rounded" src="https://cdn.pixabay.com/photo/2018/03/12/10/35/money-3219337_960_720.jpg">
+                <br><p>Quickly Exchange Currency!</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img class="rounded" src="https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696234_960_720.jpg">
+                <br><p>Grow Your Money! (Coming Soon)</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img class="rounded" src="https://cdn.pixabay.com/photo/2018/01/30/00/42/piggy-bank-3117655_960_720.jpg">
+                <br><p>Save Your Money! (Coming Soon)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+    <br>
+    <div class="row">
+        <h2>Get Started!</h2>
+        <form id="convert">
+            <div class="col-md-6 col-lg-6">
+                <p>Convert from:</p>
+                <input type="text" name="quantity">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <input type="radio" name="originalCurrency" value="USD" checked>USD<br>
+                <input type="radio" name="originalCurrency" value="GBP">GBP<br>
+                <input type="radio" name="originalCurrency" value="EUR">EUR<br>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <p>Convert to:</p>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <input type="radio" name="convertedCurrency" value="USD" checked>USD<br>
+                <input type="radio" name="convertedCurrency" value="GBP">GBP<br>
+                <input type="radio" name="convertedCurrency" value="EUR">EUR<br>
+            </div>
+            <center><button type="submit" form="convert" class="btn btn-primary">Convert</button>
+            <i class="fas fa-magic"></i></center>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/converter.js"></script>
+</body>
+</html>
