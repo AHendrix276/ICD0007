@@ -1,0 +1,62 @@
+.visibility-hidden {
+    visibility:hidden;
+}
+
+.display-removed {
+    display:none;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #858585;
+    width: 30%;
+}
+
+ul.breadcrumb li{
+    display: inline;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+.position-relative{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.position-left-corner{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.position-behind{
+    position: relative;
+    top:-100px;
+}
+
+.topleft{
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.image-with-opacity{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.rotate-x{
+    transform: rotateX(150deg);
+}
+
+.transform-z{
+    transform: rotateZ(90deg);
+}
